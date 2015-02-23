@@ -1,0 +1,290 @@
+/**********************************/
+/*FONTS*/
+@font-face {
+	font-family: 'TrebuchetBold';
+	src: url('fonts/trebucbd.ttf');
+	src: url('fonts/trebucbd.ttf') format('truetype');
+	src: url('fonts/trebucbd.ttf?#iefix') format('truetype');
+}
+@font-face {
+	font-family: 'SegoeUI';
+	src: url('fonts/segoeui.ttf');
+	src: url('fonts/segoeui.ttf') format('truetype');
+	src: url('fonts/segoeui.ttf?#iefix') format('truetype');
+}
+@font-face {
+	font-family: 'SegoeUISemiBold';
+	src: url('fonts/seguisb.ttf');
+	src: url('fonts/seguisb.ttf') format('truetype');
+	src: url('fonts/seguisb.ttf?#iefix') format('truetype');
+}
+@font-face {
+	font-family: 'Bretan';
+	src: url('fonts/bretan.ttf');
+	src: url('fonts/bretan.ttf') format('truetype');
+	src: url('fonts/bretan.ttf?#iefix') format('truetype');
+}
+
+
+/**********************************/
+/*GENERAL STYLES*/
+	body {
+		font-family: arial;
+		margin: auto;
+		padding: 0;
+	}
+	h1 {
+		font-family: 'TrebuchetBold';
+		font-size: 4.0em;
+		color: #222;
+		margin: 0 0 0 4px;
+		z-index: 2;
+	}
+	h2 {
+		font-family: 'SegoeUISemiBold';
+		font-size: 2.125em;
+		color: #444;
+		margin: 28px 0 0 0;
+	}
+	h3 {
+		font-family: 'Bretan';
+		font-size: 1.75em;
+		color: #666;
+		margin: 8px 0 0 0;
+		z-index: 2;
+	}
+	h4 {
+		font-size: 1.33em;
+		color: #444;
+		padding: 2px 0;
+		margin: 0;
+	}
+	span {
+		font-family: 'SegoeUISemiBold';
+		font-size: 1.1em;
+		color: #666;
+	}
+	hr {
+		margin: 4px 0 18px 0;
+	}
+	a {
+		text-decoration: none;
+	}
+	ul.ulBulletPoints {
+		margin-top: 15px;
+		padding-left: 20px;
+	}
+	p, li {
+		font-family: 'SegoeUI';
+		color: #888;
+		margin-top: 1px;
+		margin-right: 2%;
+	}
+	section {
+		float: left;
+
+	}
+	#wrapper {
+		margin: auto;
+		display: block;
+		width: 900px;
+	}
+	.emphasis {
+		font-family: 'SegoeUISemiBold';
+		font-size: 0.96em;
+		color: #6e6e6e;
+	}
+
+/**********************************/
+/*HEADER STYLES*/
+	header {
+		margin: 0;
+		width: 100%;
+		height: 136px;
+	}
+	/*BANNER STYLES*/
+	#banner {
+		display: inline-block;
+		width: 100%;
+		height: inherit;
+	}
+	#backdrop {
+		margin-top: 2px;
+		position: absolute;
+		width: 900px;
+		height: 132px;
+		z-index: -2;
+		background-image: linear-gradient( to right, #efedde, #eeefe8, #f4f4f4);
+	}
+	.cut-in {
+		margin-top: -2px;
+		display: inline-block;
+		float: left;
+		height: 136px;
+		background: #fff;
+		z-index: -1;
+		-webkit-transform: skew(-14deg);
+		-moz-transform:    skew(-14deg);
+		-o-transform:      skew(-14deg);
+	}
+	#c11 {
+		width: 2.25%;
+		margin-left: 48%; 
+	}
+	#c12 {
+		width: 2.75%;
+		margin-left: 7%; 
+	}
+	#c13 {
+		width: 3.25%;
+		margin-left: 6.5%; 
+	}
+	#c14 {
+		width: 3.75%;
+		margin-left: 6%; 
+	}
+	#c15 {
+		width: 4.25%;
+		margin-left: 5.5%; 
+	}
+	#c16 {
+		width: 4.75%;
+		margin-left: 4.5%; 
+	}
+	#clip-box-right {
+		position: absolute;
+		display: inline-block;
+		float: left;
+		height: 136px;
+		width: 5%;
+		background-color: white;
+		margin-left: -2.5%;
+		z-index: -1;
+	}
+	/*BANNER CONTENT*/
+	#divName {
+		text-align: center;
+		margin: 8px 18% 16px 21px;
+		float: left;
+		z-index: 2;
+	}
+	#divContact {
+		display: inline-block;
+		width: 35.5%;
+		margin-top: 21px;
+		z-index: 2;
+	}
+	#divContact a {
+		font-family: 'TrebuchetBold';
+		width: 100%;
+		display: inline-block;
+		margin-bottom: 5px;
+	}
+	.contact-img {
+		background-color: white;
+		width: 24px;
+		padding: 2px;
+		margin-right: 10px;
+		float: left;
+		display: block;
+		border: solid 0 transparent;
+		border-radius: 50%;
+		box-shadow: 0 1px 4px #7f7d6e;
+	}
+	#imgMail {
+		border: none;
+		padding: 2px;
+		width: 20px;
+	}
+
+
+/**********************************/
+/*COLUMN 1 STYLES*/
+	#secExperience {
+		padding-left: 3%;
+		width: 53%;
+	}
+	.spnJobTitle {
+		display: inline-block;
+		margin-bottom: 5px;
+	}
+	.divRight {
+		float: right;
+	}
+	.spnCompany {
+		display: inline-block;
+	}
+	.spnDate {
+		display: inline-block;
+		float: right;
+	}
+
+
+/**********************************/
+/*COLUMN 2 STYLES*/
+	#secSkills {
+		float: right;
+		width: 37%;
+		padding-right: 3%;
+	}
+	.divSkillType {
+		margin-bottom: 16px;
+	}
+	.spnSkillType {
+		margin-bottom: 3px;
+		display: block;
+
+	}
+	.divSkillBox {
+		font-family: 'Bretan';
+		font-size: 0.98em;
+		display: inline-block;
+		margin: 4px 2px 4px 0;
+		padding: 4px 4px 2px 4px;
+		border-radius: 4px; !important
+	}
+	.greenBox {
+		color: #23d26f;
+		border: solid 1px #23d26f; !important
+		box-shadow: inset 0 0 1px #23d26f;
+	}
+	.blueBox {
+		color: #348afe;
+		border: solid 1px #348afe; !important
+		box-shadow: inset 0 0 1px #348afe;
+	}
+	.redBox {
+		color: #fe3380;
+		border: solid 1px #fe3380; !important
+		box-shadow: inset 0 0 1px #fe3380;
+	}
+
+
+/**********************************/
+/*FOOTER STYLES*/
+	footer {
+		width: 100%;
+		margin-top: 24px;
+		text-align: center;
+		float: left;
+	}
+	#footer-backdrop {
+		position: absolute;
+		width: 900px;
+		height: 52px;
+		z-index: -2;
+		background-image: linear-gradient( to left, #f4f4f4, #eeefe8, #efedde);
+	}
+	footer h4 {
+		font-family: 'SegoeUISemiBold';
+		font-style: italic;
+		padding: 12px 0;
+	}
+
+/**********************************/
+/*MEDIA QUERIES*/
+	@media print {
+		body {
+			margin-top: 20px;
+		}
+	}
